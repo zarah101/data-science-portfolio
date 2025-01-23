@@ -18,6 +18,17 @@ This project analyzes the World Happiness Report dataset, exploring factors that
 - Visualizations: Various plots to explore happiness score distributions, country comparisons, and trends over the years.
 - Technologies Used: Python, Seaborn/Matplotlib, Plotly
 
+### Fraud Detection Model
+This project builds a machine learning model to detect fraudulent transactions in an imbalanced dataset (0.17% fraud). The workflow includes data preprocessing, undersampling, model training (e.g., Random Forest), and evaluation using metrics like precision, recall, and F1 score.
+
+Key Results
+- Accuracy: 91.37%
+- Precision: 97.94%
+- Recall: 86.36%
+- F1 Score: 91.79%
+
+Technologies used: Python (Pandas, Scikit-learn, Matplotlib), Models (Random Forest)
+
 ## How to Run This Project
 1. Clone the repository: 
    ```bash
