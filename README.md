@@ -29,6 +29,14 @@ Key Results
 
 Technologies used: Python (Pandas, Scikit-learn, Matplotlib), Models (Random Forest)
 
+### Isolation Forest - Anomaly Scores
+This project detects fraudulent transactions using the Isolation Forest algorithm on an imbalanced credit card dataset. Key steps include:
+
+- EDA: Checked for missing values (none found) and analyzed class imbalance (99.83% non-fraud, 0.17% fraud).
+- Anomaly Detection: Applied Isolation Forest to identify and remove 10% of anomalous records.
+- Visualization: Examined feature distributions before and after outlier removal.
+- Tools: Python (NumPy, Pandas, Seaborn, Matplotlib, Scikit-learn)
+
 ## How to Run This Project
 1. Clone the repository: 
    ```bash
