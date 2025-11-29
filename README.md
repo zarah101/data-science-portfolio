@@ -1,22 +1,21 @@
 # Data Science Portfolio
 
-Welcome to my Data Science Portfolio! 🎉🎉
-
-This repository showcases my creative approach to data science projects, including Python-based visualizations and fun interactive elements. Check out my project where I greet visitors with a colorful chart that demonstrates my data analysis and visualization skills!
+Welcome to my Data Science Portfolio - a collection of projects that reflect my curiosity, analytical thinking, and practical experience across data exploration, machine learning, and visualization. Each project highlights a different part of my skill set, from working with messy real-world datasets to building predictive models and creating interactive visuals.
 
 ## Projects
 
 ### Creative Greeting with Python
-- A fun interactive Python script that greets visitors and displays a colorful chart showcasing my skills.
-- Technologies used: Python, Matplotlib, Seaborn
+A simple, interactive script that uses Python visualizations to add a personal touch to the portfolio. It was a fun way to combine basic scripting with Matplotlib to generate a dynamic greeting and chart display.
+- Tech: Python, Matplotlib, Seaborn
 
 ### World Happiness Report - Exploratory Data Analysis (EDA)
-This project analyzes the World Happiness Report dataset, exploring factors that contribute to happiness across countries. The analysis includes data cleaning, visualization, and insights on how various factors (e.g., GDP, social support) impact happiness scores.
-
-- Choropleth Maps: Interactive maps for 2015 and 2019 to visualize happiness scores by country.
-- Correlation Analysis: Insights into the relationships between factors like life expectancy, GDP, and happiness scores.
-- Visualizations: Various plots to explore happiness score distributions, country comparisons, and trends over the years.
-- Technologies Used: Python, Seaborn/Matplotlib, Plotly
+This project explores what drives happiness across countries using the World Happiness Report datasets.
+What’s inside:
+- Data cleaning and feature exploration
+- Choropleth maps (2015 & 2019) to visualize global patterns
+- Correlation analysis between GDP, life expectancy, social support, etc.
+- Visual breakdowns of score distributions and trends
+- Tech: Python, Pandas, Seaborn, Matplotlib, Plotly
 
 ### Fraud Detection Model
 This project builds a machine learning model to detect fraudulent transactions in an imbalanced dataset (0.17% fraud). The workflow includes data preprocessing, undersampling, model training (e.g., Random Forest), and evaluation using metrics like precision, recall, and F1 score.
@@ -30,13 +29,14 @@ Key Results
 Technologies used: Python (Pandas, Scikit-learn, Matplotlib), Models (Random Forest)
 
 ### Isolation Forest - Anomaly Scores
-This project detects fraudulent transactions using the Isolation Forest algorithm on an imbalanced credit card dataset. Key steps include:
-
-- EDA: Checked for missing values (none found) and analyzed class imbalance (99.83% non-fraud, 0.17% fraud).
-- Anomaly Detection: Applied Isolation Forest to identify and remove 10% of anomalous records.
-- Visualization: Examined feature distributions before and after outlier removal.
-- Tools: Python (NumPy, Pandas, Seaborn, Matplotlib, Scikit-learn)
-
+An unsupervised learning approach to detecting anomalies in credit card data.
+Key steps:
+- Explored data structure and confirmed no missing values
+- Reviewed severe class imbalance (99.83% non-fraud vs. 0.17% fraud)
+- Applied Isolation Forest to obtain anomaly scores
+- Removed the most anomalous 10% for comparison
+- Visualized distributions before/after outlier filtering
+- Tech: Python, NumPy, Pandas, Seaborn, Scikit-learn
 ## How to Run This Project
 1. Clone the repository: 
    ```bash
